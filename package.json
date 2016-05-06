@@ -1,5 +1,5 @@
 {
-  "name": "Ship Components Scroll",
+  "name": "ship-components-scroll",
   "version": "0.1.0",
   "description": "Material Design React Scroll",
   "main": "src/index.js",
