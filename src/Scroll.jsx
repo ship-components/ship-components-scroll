@@ -7,6 +7,7 @@
 
 // External Modules
 import React from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 // Local
@@ -56,9 +57,9 @@ export default class Scroll extends React.Component {
  * @type {Object}
  */
 Scroll.propTypes = {
-  tag: React.PropTypes.string,
-  type: React.PropTypes.oneOf(['shadowScroll', 'moonlightScroll']),
-  orientation: React.PropTypes.oneOf(['horizontal', 'vertical', 'both'])
+  tag: PropTypes.string,
+  type: PropTypes.oneOf(['shadowScroll', 'moonlightScroll']),
+  orientation: PropTypes.oneOf(['horizontal', 'vertical', 'both'])
 
 };
 
